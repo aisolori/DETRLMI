@@ -15,6 +15,7 @@
 #' @importFrom jsonlite fromJSON
 #' @importFrom tibble as_tibble
 #' @importFrom dplyr mutate
+#' @importFrom magrittr %>%
 #'
 #' @examples
 #' \dontrun{
