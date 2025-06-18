@@ -4,12 +4,14 @@
 \alias{getFRED}
 \title{Retrieve FRED Series Data as a Tibble}
 \usage{
-getFRED(series_id, api_key)
+getFRED(series_id, api_key, numeric = TRUE)
 }
 \arguments{
 \item{series_id}{Character. The FRED series ID to retrieve (e.g., \code{"ATNHPIUS16180Q"}).}
 
 \item{api_key}{Character. Your FRED API key. If missing, function will look for an environment variable named \code{FRED_API_KEY}.}
+
+\item{numeric}{Logical. If TRUE (default), converts the 'value' column to numeric.}
 }
 \value{
 A tibble containing the FRED observations for the specified series.

@@ -12,5 +12,6 @@ LazyData: true
 Imports:
     httr (>= 1.4.7),
     jsonlite (>= 1.8.8),
-    tibble (>= 3.2.1)
+    tibble (>= 3.2.1),
+    dplyr (>= 1.1.4)
 RoxygenNote: 7.3.2
