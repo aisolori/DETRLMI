@@ -3,7 +3,7 @@
 #' Downloads and parses time series data from the Federal Reserve Economic Data (FRED) API, returning a tidy tibble of observations.
 #'
 #' @param series_id Character. The FRED series ID to retrieve (e.g., \code{"ATNHPIUS16180Q"}).
-#' @param api_key Character. Your FRED API key. If missing, function will look for an environment variable named \code{FRED_API_KEY}.
+#' @param api_key Character. Your FRED API key. If missing, function will look for an environment variable named \code{FRED_API_KEY}. API keys can be obtained from \url{https://fred.stlouisfed.org/docs/api/api_key.html}.
 #' @param numeric Logical. If TRUE (default), converts the 'value' column to numeric.
 #'
 #' @return A tibble containing the FRED observations for the specified series.

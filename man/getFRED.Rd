@@ -9,7 +9,7 @@ getFRED(series_id, api_key, numeric = TRUE)
 \arguments{
 \item{series_id}{Character. The FRED series ID to retrieve (e.g., \code{"ATNHPIUS16180Q"}).}
 
-\item{api_key}{Character. Your FRED API key. If missing, function will look for an environment variable named \code{FRED_API_KEY}.}
+\item{api_key}{Character. Your FRED API key. If missing, function will look for an environment variable named \code{FRED_API_KEY}. API keys can be obtained from \url{https://fred.stlouisfed.org/docs/api/api_key.html}.}
 
 \item{numeric}{Logical. If TRUE (default), converts the 'value' column to numeric.}
 }
